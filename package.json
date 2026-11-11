@@ -4,6 +4,7 @@
   "private": true,
   "description": "WordPress plugin: CalcBloc calculators as a shortcode and a block.",
   "license": "GPL-2.0-or-later",
+  "author": "itmarkerz technologies (https://itmarkerz.co.in)",
   "scripts": {
     "build": "wp-scripts build --webpack-src-dir=src --output-path=build --webpack-copy-php",
     "start": "wp-scripts start --webpack-src-dir=src --output-path=build --webpack-copy-php",

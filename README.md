@@ -54,7 +54,7 @@ Release steps for the WordPress.org directory are in [SUBMISSION_CHECKLIST.md](S
 
 ## Data and licence
 
-The plugin is licensed under the GPL, version 2 or later (see [LICENSE](LICENSE)), as the WordPress.org directory requires. The tax data it displays comes from [CalcBloc](https://calcbloc.com/data?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss) under CC BY 4.0, credit "Data by CalcBloc (calcbloc.com/data)". Results are estimates, not tax advice: see the [disclaimer](https://calcbloc.com/disclaimer?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss).
+The plugin is copyright itmarkerz technologies and licensed under the GPL, version 2 or later (see [LICENSE](LICENSE)), as the WordPress.org directory requires. The tax data it displays comes from [CalcBloc](https://calcbloc.com/data?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss) under CC BY 4.0, credit "Data by CalcBloc (calcbloc.com/data)". Results are estimates, not tax advice: see the [disclaimer](https://calcbloc.com/disclaimer?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss).
 
 ## Privacy
 

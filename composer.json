@@ -3,6 +3,12 @@
     "description": "CalcBloc Calculators WordPress plugin (development tooling only; the plugin has no Composer dependencies).",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "itmarkerz technologies",
+            "homepage": "https://itmarkerz.co.in"
+        }
+    ],
     "require-dev": {
         "wp-coding-standards/wpcs": "^3.1",
         "phpcompatibility/phpcompatibility-wp": "^2.1",
