@@ -12,9 +12,9 @@ Free take-home pay, salary and income tax calculators for 13 countries, added wi
 
 == Description ==
 
-CalcBloc is a product of [itmarkerz technologies](https://itmarkerz.co.in).
+CalcBloc is a product of [itmarkerz technologies](https://itmarkerz.co.in/?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss).
 
-CalcBloc Calculators puts a working salary or tax calculator from [CalcBloc](https://calcbloc.com) on any post or page. Pick a country and a calculator, and your readers can work out their take-home pay, income tax, National Insurance, GST or employer cost without leaving your site.
+CalcBloc Calculators puts a working salary or tax calculator from [CalcBloc](https://calcbloc.com/?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss) on any post or page. Pick a country and a calculator, and your readers can work out their take-home pay, income tax, National Insurance, GST or employer cost without leaving your site.
 
 The calculators cover the United States, the United Kingdom, Australia, New Zealand, Canada, Ireland, Germany, India, Spain, the Netherlands, France, Singapore and the United Arab Emirates. Every rate comes from the official tax agency, such as the IRS, HMRC, the ATO or Revenue, and is updated on calcbloc.com, so the calculator on your site stays current without a plugin update.
 
@@ -46,24 +46,25 @@ This plugin embeds calculators hosted by CalcBloc (calcbloc.com), a product of i
 * **Analytics inside the frame:** the calculator page may use Google Analytics 4 to count page views, with Google Consent Mode; analytics storage is denied by default for visitors in the EEA, the UK and Switzerland.
 * **Catalogue updates:** when an administrator opens the block editor or Settings > CalcBloc, the plugin requests `https://calcbloc.com/embed/catalog.json` (at most every 12 hours) to update the list of calculators. This request sends your site address in the user agent and no personal data.
 * No data is sent to calcbloc.com when the plugin is installed or activated.
+* **Credit link:** the "Powered by CalcBloc" link carries a referral tag naming the plugin (utm_source=calcbloc-wordpress, utm_medium=app, utm_campaign=itmarkerz-oss) so CalcBloc can see which product a visit came from; the tag contains no personal or browsing data.
 
 CalcBloc terms of use: https://calcbloc.com/terms
 CalcBloc privacy policy: https://calcbloc.com/privacy
 
 = Data and source code =
 
-Calculations use CalcBloc's tax data, published under CC BY 4.0 at https://calcbloc.com/data. The plugin's source code, including the unbuilt block files, is at https://github.com/itmarkerz/calcbloc-wordpress.
+Calculations use CalcBloc's tax data, published under CC BY 4.0 at [https://calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss). The plugin's source code, including the unbuilt block files, is at https://github.com/itmarkerz/calcbloc-wordpress.
 
-Results are estimates for information only, not tax, legal or financial advice. See https://calcbloc.com/disclaimer.
+Results are estimates for information only, not tax, legal or financial advice. See [https://calcbloc.com/disclaimer](https://calcbloc.com/disclaimer?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss).
 
 = About =
 
-CalcBloc is built and run by [itmarkerz technologies](https://itmarkerz.co.in), a web and mobile app development company in Kerala, India.
+CalcBloc is built and run by [itmarkerz technologies](https://itmarkerz.co.in/?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss), a web and mobile app development company in Kerala, India.
 
-* CalcBloc: https://calcbloc.com
-* Embed code generator: https://calcbloc.com/embed
-* Tax tables and data: https://calcbloc.com/data
-* itmarkerz technologies: https://itmarkerz.co.in
+* CalcBloc: [https://calcbloc.com](https://calcbloc.com/?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss)
+* Embed code generator: [https://calcbloc.com/embed](https://calcbloc.com/embed?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss)
+* Tax tables and data: [https://calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss)
+* itmarkerz technologies: [https://itmarkerz.co.in](https://itmarkerz.co.in/?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss)
 
 == Installation ==
 
@@ -79,7 +80,7 @@ Yes. The plugin and the calculators are free to use on any website, including co
 
 = Which calculators are available? =
 
-Take-home pay, income tax, social security, employer cost, contractor versus employee, VAT/GST, loans and more, in 13 countries. Settings > CalcBloc lists every calculator with its shortcode, and https://calcbloc.com/embed shows a live preview of each one.
+Take-home pay, income tax, social security, employer cost, contractor versus employee, VAT/GST, loans and more, in 13 countries. Settings > CalcBloc lists every calculator with its shortcode, and [https://calcbloc.com/embed](https://calcbloc.com/embed?utm_source=calcbloc-wordpress&utm_medium=listing&utm_campaign=itmarkerz-oss) shows a live preview of each one.
 
 = Can I remove the "Powered by CalcBloc" link? =
 

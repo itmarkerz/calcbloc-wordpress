@@ -1,8 +1,8 @@
 # CalcBloc Calculators for WordPress
 
-CalcBloc is a product of [itmarkerz technologies](https://itmarkerz.co.in).
+CalcBloc is a product of [itmarkerz technologies](https://itmarkerz.co.in/?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss).
 
-Add free salary, take-home pay and income tax calculators from [CalcBloc](https://calcbloc.com) to any WordPress site with a block or a shortcode. The calculators run in a sandboxed frame, so they cannot break your theme, and every rate comes from the official tax agency, checked and updated on calcbloc.com.
+Add free salary, take-home pay and income tax calculators from [CalcBloc](https://calcbloc.com/?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss) to any WordPress site with a block or a shortcode. The calculators run in a sandboxed frame, so they cannot break your theme, and every rate comes from the official tax agency, checked and updated on calcbloc.com.
 
 > **Status:** version 1.0.0, ready for review. Not yet submitted to the WordPress.org plugin directory.
 
@@ -14,7 +14,7 @@ Add free salary, take-home pay and income tax calculators from [CalcBloc](https:
 - **Light:** one script (`https://calcbloc.com/widget.js`, about 3 KB compressed), loaded asynchronously and only on pages with a calculator. The frame resizes to its content and fits phone screens.
 - **Credit:** a visible "Powered by CalcBloc" line with a normal link to the matching calculator page.
 
-The plugin outputs the same markup as the embed code from [calcbloc.com/embed](https://calcbloc.com/embed):
+The plugin outputs the same markup as the embed code from [calcbloc.com/embed](https://calcbloc.com/embed?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss):
 
 ```html
 <div class="calcbloc-widget" data-country="uk" data-calculator="take-home-pay">
@@ -54,19 +54,19 @@ Release steps for the WordPress.org directory are in [SUBMISSION_CHECKLIST.md](S
 
 ## Data and licence
 
-The plugin is licensed under the GPL, version 2 or later (see [LICENSE](LICENSE)), as the WordPress.org directory requires. The tax data it displays comes from [CalcBloc](https://calcbloc.com/data) under CC BY 4.0, credit "Data by CalcBloc (calcbloc.com/data)". Results are estimates, not tax advice: see the [disclaimer](https://calcbloc.com/disclaimer).
+The plugin is licensed under the GPL, version 2 or later (see [LICENSE](LICENSE)), as the WordPress.org directory requires. The tax data it displays comes from [CalcBloc](https://calcbloc.com/data?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss) under CC BY 4.0, credit "Data by CalcBloc (calcbloc.com/data)". Results are estimates, not tax advice: see the [disclaimer](https://calcbloc.com/disclaimer?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss).
 
 ## Privacy
 
-Pages with a calculator load `widget.js` and the calculator frame from calcbloc.com, so calcbloc.com receives the visitor's IP address, user agent and the page address. Numbers typed into the calculator are processed in the browser. The calculator page may count page views with Google Analytics 4 (Consent Mode; analytics storage denied by default in the EEA, UK and Switzerland). See the [privacy policy](https://calcbloc.com/privacy) and [terms](https://calcbloc.com/terms).
+Pages with a calculator load `widget.js` and the calculator frame from calcbloc.com, so calcbloc.com receives the visitor's IP address, user agent and the page address. Numbers typed into the calculator are processed in the browser. The calculator page may count page views with Google Analytics 4 (Consent Mode; analytics storage denied by default in the EEA, UK and Switzerland). See the [privacy policy](https://calcbloc.com/privacy?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss) and [terms](https://calcbloc.com/terms?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss).
 
 ## Links
 
-- Website: [calcbloc.com](https://calcbloc.com)
-- Embed code generator: [calcbloc.com/embed](https://calcbloc.com/embed)
-- Tax tables and downloads: [calcbloc.com/data](https://calcbloc.com/data)
-- API documentation: [calcbloc.com/developers](https://calcbloc.com/developers)
+- Website: [calcbloc.com](https://calcbloc.com/?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss)
+- Embed code generator: [calcbloc.com/embed](https://calcbloc.com/embed?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss)
+- Tax tables and downloads: [calcbloc.com/data](https://calcbloc.com/data?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss)
+- API documentation: [calcbloc.com/developers](https://calcbloc.com/developers?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss)
 
 ## About
 
-CalcBloc is built and run by [itmarkerz technologies](https://itmarkerz.co.in), a web and mobile app development company in Kerala, India. Website: [calcbloc.com](https://calcbloc.com) · Company: [itmarkerz.co.in](https://itmarkerz.co.in)
+CalcBloc is built and run by [itmarkerz technologies](https://itmarkerz.co.in/?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss), a web and mobile app development company in Kerala, India. Website: [calcbloc.com](https://calcbloc.com/?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss) · Company: [itmarkerz.co.in](https://itmarkerz.co.in/?utm_source=calcbloc-wordpress&utm_medium=readme&utm_campaign=itmarkerz-oss)

@@ -8,6 +8,18 @@ const data = window.calcblocCalculators || {
 	defaultTheme: 'light',
 };
 
+/** Same referral tag as the front-end credit link (calcbloc_calculators_credit_url() in includes/render.php). */
+const CREDIT_UTM =
+	'utm_source=calcbloc-wordpress&utm_medium=app&utm_campaign=itmarkerz-oss';
+function creditUrl( url ) {
+	if ( url.includes( 'utm_source=' ) ) {
+		return url;
+	}
+	const [ base, ...hash ] = url.split( '#' );
+	const tagged = `${ base }${ base.includes( '?' ) ? '&' : '?' }${ CREDIT_UTM }`;
+	return hash.length ? `${ tagged }#${ hash.join( '#' ) }` : tagged;
+}
+
 function findCountry( id ) {
 	return data.catalog.find( ( c ) => c.id === id || c.code === id );
 }
@@ -109,7 +121,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					>
 						{ __( 'Powered by', 'calcbloc-calculators' ) }{ ' ' }
 						<a
-							href={ calc.url }
+							href={ creditUrl( calc.url ) }
 							target="_blank"
 							rel="noopener noreferrer"
 						>

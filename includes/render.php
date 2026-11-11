@@ -29,6 +29,23 @@ function calcbloc_calculators_register_script() {
 }
 
 /**
+ * The "Powered by CalcBloc" credit link: the calculator page from the catalog plus a referral tag naming this plugin,
+ * so CalcBloc can see which product a visit came from. The tag carries nothing about the site or its visitors.
+ *
+ * @param string $url Calculator page URL from the catalog.
+ * @return string The URL with utm_source=calcbloc-wordpress, utm_medium=app and utm_campaign=itmarkerz-oss.
+ */
+function calcbloc_calculators_credit_url( $url ) {
+	$url = (string) $url;
+	if ( false !== strpos( $url, 'utm_source=' ) ) {
+		return $url;
+	}
+	$parts  = explode( '#', $url, 2 );
+	$tagged = $parts[0] . ( false === strpos( $parts[0], '?' ) ? '?' : '&' ) . 'utm_source=calcbloc-wordpress&utm_medium=app&utm_campaign=itmarkerz-oss';
+	return isset( $parts[1] ) ? $tagged . '#' . $parts[1] : $tagged;
+}
+
+/**
  * Default colour scheme from the settings page.
  *
  * @return string "light" or "dark".
@@ -80,7 +97,7 @@ function calcbloc_calculators_render( $args ) {
 	$html .= 'dark' === $theme ? ' data-theme="dark"' : '';
 	$html .= '>';
 	$html .= '<noscript><iframe src="' . esc_url( $frame ) . '" title="' . esc_attr( $calc['title'] ) . '" loading="lazy" style="width:100%;height:820px;border:0"></iframe></noscript>';
-	$html .= '<p class="calcbloc-credit">' . esc_html__( 'Powered by', 'calcbloc-calculators' ) . ' <a href="' . esc_url( $calc['url'] ) . '" target="_blank" rel="noopener">CalcBloc</a></p>';
+	$html .= '<p class="calcbloc-credit">' . esc_html__( 'Powered by', 'calcbloc-calculators' ) . ' <a href="' . esc_url( calcbloc_calculators_credit_url( $calc['url'] ) ) . '" target="_blank" rel="noopener">CalcBloc</a></p>';
 	$html .= '</div>';
 	return $html;
 }

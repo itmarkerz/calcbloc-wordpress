@@ -79,7 +79,9 @@ check( count( calcbloc_calculators_get_catalog() ) >= 10, 'bundled catalog loads
 
 $uk = shortcode( array( 'country' => 'uk', 'calculator' => 'take-home-pay' ) );
 check( false !== strpos( $uk, '<div class="calcbloc-widget" data-country="uk" data-calculator="take-home-pay">' ), 'shortcode renders the widget div' );
-check( false !== strpos( $uk, 'Powered by <a href="https://calcbloc.com/uk/take-home-pay-calculator" target="_blank" rel="noopener">CalcBloc</a>' ), 'shortcode renders the visible credit link to the calculator page' );
+check( false !== strpos( $uk, 'Powered by <a href="https://calcbloc.com/uk/take-home-pay-calculator?utm_source=calcbloc-wordpress&amp;utm_medium=app&amp;utm_campaign=itmarkerz-oss" target="_blank" rel="noopener">CalcBloc</a>' ), 'shortcode renders the visible credit link to the calculator page, with the referral tag' );
+check( 'https://calcbloc.com/a?x=1&utm_source=calcbloc-wordpress&utm_medium=app&utm_campaign=itmarkerz-oss#s' === calcbloc_calculators_credit_url( 'https://calcbloc.com/a?x=1#s' ), 'referral tag goes before the fragment and after an existing query' );
+check( 'https://calcbloc.com/a?utm_source=calcbloc-wordpress&utm_medium=app&utm_campaign=itmarkerz-oss' === calcbloc_calculators_credit_url( 'https://calcbloc.com/a?utm_source=calcbloc-wordpress&utm_medium=app&utm_campaign=itmarkerz-oss' ), 'referral tag is not added twice' );
 check( ! preg_match( '/nofollow|display:\s*none|visibility:\s*hidden/', $uk ), 'credit link is plain (no nofollow, not hidden)' );
 check( ! empty( $GLOBALS['cb_enqueued']['calcbloc-widget'] ), 'enqueues widget.js only when a calculator renders' );
 check( 'async' === $GLOBALS['cb_scripts']['calcbloc-widget']['args']['strategy'] && $GLOBALS['cb_scripts']['calcbloc-widget']['args']['in_footer'], 'widget.js loads async in the footer' );
