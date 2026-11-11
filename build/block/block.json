@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "calcbloc/calculator",
+  "version": "1.0.0",
+  "title": "CalcBloc Calculator",
+  "category": "widgets",
+  "icon": "calculator",
+  "description": "A take-home pay, salary or tax calculator from CalcBloc, with a visible credit link to calcbloc.com.",
+  "keywords": [
+    "calculator",
+    "salary",
+    "tax",
+    "take-home pay",
+    "paycheck"
+  ],
+  "textdomain": "calcbloc-calculators",
+  "attributes": {
+    "country": {
+      "type": "string",
+      "default": "uk"
+    },
+    "calculator": {
+      "type": "string",
+      "default": "take-home-pay"
+    },
+    "theme": {
+      "type": "string",
+      "default": "",
+      "enum": [
+        "",
+        "light",
+        "dark"
+      ]
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "spacing": {
+      "margin": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

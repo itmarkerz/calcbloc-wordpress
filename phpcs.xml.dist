@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ruleset name="CalcBloc Calculators">
+	<description>WordPress Coding Standards for the CalcBloc Calculators plugin.</description>
+	<file>.</file>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/build/*</exclude-pattern>
+	<exclude-pattern>/tests/*</exclude-pattern>
+	<exclude-pattern>*.js</exclude-pattern>
+	<exclude-pattern>*.asset.php</exclude-pattern>
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+	<config name="testVersion" value="7.4-"/>
+	<config name="minimum_wp_version" value="6.3"/>
+	<rule ref="WordPress"/>
+	<rule ref="PHPCompatibilityWP"/>
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="calcbloc-calculators"/>
+			</property>
+		</properties>
+	</rule>
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="calcbloc_calculators"/>
+				<element value="CALCBLOC_CALCULATORS"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

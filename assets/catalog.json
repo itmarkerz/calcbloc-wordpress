@@ -1,0 +1,756 @@
+{
+ "name": "CalcBloc embeddable calculators",
+ "docs": "https://calcbloc.com/embed",
+ "script": "https://calcbloc.com/widget.js",
+ "countries": [
+  {
+   "id": "us",
+   "name": "US",
+   "code": "us",
+   "calculators": [
+    {
+     "type": "amortization",
+     "slug": "amortization-calculator",
+     "title": "Amortization Calculator",
+     "url": "https://calcbloc.com/us/amortization-calculator",
+     "frameUrl": "https://calcbloc.com/embed/amortization-calculator"
+    },
+    {
+     "type": "auto-loan",
+     "slug": "auto-loan-calculator",
+     "title": "Auto Loan Calculator",
+     "url": "https://calcbloc.com/us/auto-loan-calculator",
+     "frameUrl": "https://calcbloc.com/embed/auto-loan-calculator"
+    },
+    {
+     "type": "billable-rate",
+     "slug": "billable-rate-calculator",
+     "title": "Billable Rate Calculator",
+     "url": "https://calcbloc.com/us/billable-rate-calculator",
+     "frameUrl": "https://calcbloc.com/embed/billable-rate-calculator"
+    },
+    {
+     "type": "bonus-tax",
+     "slug": "bonus-tax-calculator",
+     "title": "Bonus Tax Calculator",
+     "url": "https://calcbloc.com/us/bonus-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/bonus-tax-calculator"
+    },
+    {
+     "type": "contractor-vs-employee",
+     "slug": "contractor-vs-employee-calculator",
+     "title": "Contractor vs Employee Calculator",
+     "url": "https://calcbloc.com/us/contractor-vs-employee-calculator",
+     "frameUrl": "https://calcbloc.com/embed/contractor-vs-employee-calculator"
+    },
+    {
+     "type": "employee-cost",
+     "slug": "employee-cost-calculator",
+     "title": "Employee Cost Calculator",
+     "url": "https://calcbloc.com/us/employee-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/employee-cost-calculator"
+    },
+    {
+     "type": "employer-payroll-tax",
+     "slug": "employer-payroll-tax-calculator",
+     "title": "Employer Payroll Tax Calculator",
+     "url": "https://calcbloc.com/us/employer-payroll-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/employer-payroll-tax-calculator"
+    },
+    {
+     "type": "federal-income-tax",
+     "slug": "federal-income-tax-calculator",
+     "title": "Federal Income Tax Calculator",
+     "url": "https://calcbloc.com/us/federal-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/federal-income-tax-calculator"
+    },
+    {
+     "type": "fha-loan",
+     "slug": "fha-loan-calculator",
+     "title": "FHA Loan Calculator",
+     "url": "https://calcbloc.com/us/fha-loan-calculator",
+     "frameUrl": "https://calcbloc.com/embed/fha-loan-calculator"
+    },
+    {
+     "type": "futa-tax",
+     "slug": "futa-tax-calculator",
+     "title": "FUTA Tax Calculator",
+     "url": "https://calcbloc.com/us/futa-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/futa-tax-calculator"
+    },
+    {
+     "type": "home-affordability",
+     "slug": "home-affordability-calculator",
+     "title": "Home Affordability Calculator",
+     "url": "https://calcbloc.com/us/home-affordability-calculator",
+     "frameUrl": "https://calcbloc.com/embed/home-affordability-calculator"
+    },
+    {
+     "type": "loan-payoff",
+     "slug": "loan-payoff-calculator",
+     "title": "Loan Payoff Calculator",
+     "url": "https://calcbloc.com/us/loan-payoff-calculator",
+     "frameUrl": "https://calcbloc.com/embed/loan-payoff-calculator"
+    },
+    {
+     "type": "mortgage",
+     "slug": "mortgage-calculator",
+     "title": "Mortgage Calculator",
+     "url": "https://calcbloc.com/us/mortgage-calculator",
+     "frameUrl": "https://calcbloc.com/embed/mortgage-calculator"
+    },
+    {
+     "type": "overtime-cost",
+     "slug": "overtime-cost-calculator",
+     "title": "Overtime Cost Calculator",
+     "url": "https://calcbloc.com/us/overtime-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/overtime-cost-calculator"
+    },
+    {
+     "type": "paycheck",
+     "slug": "paycheck-calculator",
+     "title": "Paycheck Calculator",
+     "url": "https://calcbloc.com/us/paycheck-calculator",
+     "frameUrl": "https://calcbloc.com/embed/paycheck-calculator"
+    },
+    {
+     "type": "refinance",
+     "slug": "refinance-calculator",
+     "title": "Refinance Calculator",
+     "url": "https://calcbloc.com/us/refinance-calculator",
+     "frameUrl": "https://calcbloc.com/embed/refinance-calculator"
+    },
+    {
+     "type": "salary-to-hourly",
+     "slug": "salary-to-hourly-calculator",
+     "title": "Salary to Hourly Calculator",
+     "url": "https://calcbloc.com/us/salary-to-hourly-calculator",
+     "frameUrl": "https://calcbloc.com/embed/salary-to-hourly-calculator"
+    },
+    {
+     "type": "state-income-tax-comparison",
+     "slug": "state-income-tax-comparison",
+     "title": "State Income Tax Comparison",
+     "url": "https://calcbloc.com/us/state-income-tax-comparison",
+     "frameUrl": "https://calcbloc.com/embed/state-income-tax-comparison"
+    },
+    {
+     "type": "va-loan",
+     "slug": "va-loan-calculator",
+     "title": "VA Loan Calculator",
+     "url": "https://calcbloc.com/us/va-loan-calculator",
+     "frameUrl": "https://calcbloc.com/embed/va-loan-calculator"
+    }
+   ]
+  },
+  {
+   "id": "uk",
+   "name": "UK",
+   "code": "gb",
+   "calculators": [
+    {
+     "type": "contractor-vs-permanent",
+     "slug": "uk-contractor-vs-permanent-calculator",
+     "title": "Contractor vs Permanent Calculator",
+     "url": "https://calcbloc.com/uk/uk-contractor-vs-permanent-calculator",
+     "frameUrl": "https://calcbloc.com/embed/uk-contractor-vs-permanent-calculator"
+    },
+    {
+     "type": "corporation-tax",
+     "slug": "corporation-tax-calculator",
+     "title": "Corporation Tax Calculator",
+     "url": "https://calcbloc.com/uk/corporation-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/corporation-tax-calculator"
+    },
+    {
+     "type": "dividend-tax",
+     "slug": "dividend-tax-calculator",
+     "title": "Dividend Tax Calculator",
+     "url": "https://calcbloc.com/uk/dividend-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/dividend-tax-calculator"
+    },
+    {
+     "type": "holiday-entitlement",
+     "slug": "holiday-entitlement-calculator",
+     "title": "Holiday Entitlement Calculator UK",
+     "url": "https://calcbloc.com/uk/holiday-entitlement-calculator",
+     "frameUrl": "https://calcbloc.com/embed/holiday-entitlement-calculator"
+    },
+    {
+     "type": "national-insurance",
+     "slug": "national-insurance-calculator",
+     "title": "National Insurance Calculator",
+     "url": "https://calcbloc.com/uk/national-insurance-calculator",
+     "frameUrl": "https://calcbloc.com/embed/national-insurance-calculator"
+    },
+    {
+     "type": "rd-tax-credit",
+     "slug": "rd-tax-credit-calculator",
+     "title": "R&D Tax Credit Calculator UK",
+     "url": "https://calcbloc.com/uk/rd-tax-credit-calculator",
+     "frameUrl": "https://calcbloc.com/embed/rd-tax-credit-calculator"
+    },
+    {
+     "type": "seis-eis",
+     "slug": "seis-eis-calculator",
+     "title": "SEIS & EIS Tax Relief Calculator",
+     "url": "https://calcbloc.com/uk/seis-eis-calculator",
+     "frameUrl": "https://calcbloc.com/embed/seis-eis-calculator"
+    },
+    {
+     "type": "self-employed-tax",
+     "slug": "self-employed-tax-calculator",
+     "title": "Self-Employed Tax Calculator",
+     "url": "https://calcbloc.com/uk/self-employed-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/self-employed-tax-calculator"
+    },
+    {
+     "type": "student-loan-repayment",
+     "slug": "student-loan-repayment-calculator",
+     "title": "Student Loan Repayment Calculator",
+     "url": "https://calcbloc.com/uk/student-loan-repayment-calculator",
+     "frameUrl": "https://calcbloc.com/embed/student-loan-repayment-calculator"
+    },
+    {
+     "type": "employer-cost",
+     "slug": "uk-employer-cost-calculator",
+     "title": "UK Employer Cost Calculator",
+     "url": "https://calcbloc.com/uk/uk-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/uk-employer-cost-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "uk-income-tax-calculator",
+     "title": "UK Income Tax Calculator",
+     "url": "https://calcbloc.com/uk/uk-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/uk-income-tax-calculator"
+    },
+    {
+     "type": "take-home-pay",
+     "slug": "take-home-pay-calculator",
+     "title": "UK Take-Home Pay Calculator",
+     "url": "https://calcbloc.com/uk/take-home-pay-calculator",
+     "frameUrl": "https://calcbloc.com/embed/take-home-pay-calculator"
+    },
+    {
+     "type": "vat",
+     "slug": "vat-calculator",
+     "title": "VAT Calculator",
+     "url": "https://calcbloc.com/uk/vat-calculator",
+     "frameUrl": "https://calcbloc.com/embed/vat-calculator"
+    }
+   ]
+  },
+  {
+   "id": "australia",
+   "name": "Australia",
+   "code": "au",
+   "calculators": [
+    {
+     "type": "contractor-vs-employee",
+     "slug": "australia-contractor-vs-employee-calculator",
+     "title": "Australia Contractor vs Employee Calculator",
+     "url": "https://calcbloc.com/australia/australia-contractor-vs-employee-calculator",
+     "frameUrl": "https://calcbloc.com/embed/australia-contractor-vs-employee-calculator"
+    },
+    {
+     "type": "employer-cost",
+     "slug": "australia-employer-cost-calculator",
+     "title": "Australia Employer Cost Calculator",
+     "url": "https://calcbloc.com/australia/australia-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/australia-employer-cost-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "australia-income-tax-calculator",
+     "title": "Australian Income Tax Calculator",
+     "url": "https://calcbloc.com/australia/australia-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/australia-income-tax-calculator"
+    },
+    {
+     "type": "pay",
+     "slug": "pay-calculator",
+     "title": "Australian Pay Calculator",
+     "url": "https://calcbloc.com/australia/pay-calculator",
+     "frameUrl": "https://calcbloc.com/embed/pay-calculator"
+    },
+    {
+     "type": "company-tax",
+     "slug": "company-tax-calculator-australia",
+     "title": "Company Tax Calculator Australia",
+     "url": "https://calcbloc.com/australia/company-tax-calculator-australia",
+     "frameUrl": "https://calcbloc.com/embed/company-tax-calculator-australia"
+    },
+    {
+     "type": "gst",
+     "slug": "gst-calculator",
+     "title": "GST Calculator Australia",
+     "url": "https://calcbloc.com/australia/gst-calculator",
+     "frameUrl": "https://calcbloc.com/embed/gst-calculator"
+    },
+    {
+     "type": "help-repayment",
+     "slug": "help-repayment-calculator",
+     "title": "HELP Repayment Calculator",
+     "url": "https://calcbloc.com/australia/help-repayment-calculator",
+     "frameUrl": "https://calcbloc.com/embed/help-repayment-calculator"
+    },
+    {
+     "type": "medicare-levy",
+     "slug": "medicare-levy-calculator",
+     "title": "Medicare Levy Calculator",
+     "url": "https://calcbloc.com/australia/medicare-levy-calculator",
+     "frameUrl": "https://calcbloc.com/embed/medicare-levy-calculator"
+    },
+    {
+     "type": "sole-trader-tax",
+     "slug": "sole-trader-tax-calculator-australia",
+     "title": "Sole Trader Tax Calculator Australia",
+     "url": "https://calcbloc.com/australia/sole-trader-tax-calculator-australia",
+     "frameUrl": "https://calcbloc.com/embed/sole-trader-tax-calculator-australia"
+    },
+    {
+     "type": "superannuation",
+     "slug": "superannuation-calculator",
+     "title": "Superannuation Calculator",
+     "url": "https://calcbloc.com/australia/superannuation-calculator",
+     "frameUrl": "https://calcbloc.com/embed/superannuation-calculator"
+    }
+   ]
+  },
+  {
+   "id": "new-zealand",
+   "name": "New Zealand",
+   "code": "nz",
+   "calculators": [
+    {
+     "type": "gst",
+     "slug": "gst-calculator-nz",
+     "title": "GST Calculator NZ",
+     "url": "https://calcbloc.com/new-zealand/gst-calculator-nz",
+     "frameUrl": "https://calcbloc.com/embed/gst-calculator-nz"
+    },
+    {
+     "type": "kiwisaver",
+     "slug": "kiwisaver-calculator",
+     "title": "KiwiSaver Calculator",
+     "url": "https://calcbloc.com/new-zealand/kiwisaver-calculator",
+     "frameUrl": "https://calcbloc.com/embed/kiwisaver-calculator"
+    },
+    {
+     "type": "company-tax",
+     "slug": "nz-company-tax-calculator",
+     "title": "NZ Company Tax Calculator",
+     "url": "https://calcbloc.com/new-zealand/nz-company-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/nz-company-tax-calculator"
+    },
+    {
+     "type": "contractor-vs-permanent",
+     "slug": "nz-contractor-vs-permanent-calculator",
+     "title": "NZ Contractor vs Permanent Calculator",
+     "url": "https://calcbloc.com/new-zealand/nz-contractor-vs-permanent-calculator",
+     "frameUrl": "https://calcbloc.com/embed/nz-contractor-vs-permanent-calculator"
+    },
+    {
+     "type": "employer-cost",
+     "slug": "nz-employer-cost-calculator",
+     "title": "NZ Employer Cost Calculator",
+     "url": "https://calcbloc.com/new-zealand/nz-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/nz-employer-cost-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "nz-income-tax-calculator",
+     "title": "NZ Income Tax Calculator",
+     "url": "https://calcbloc.com/new-zealand/nz-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/nz-income-tax-calculator"
+    },
+    {
+     "type": "paye",
+     "slug": "paye-calculator",
+     "title": "NZ PAYE Calculator",
+     "url": "https://calcbloc.com/new-zealand/paye-calculator",
+     "frameUrl": "https://calcbloc.com/embed/paye-calculator"
+    },
+    {
+     "type": "student-loan",
+     "slug": "nz-student-loan-calculator",
+     "title": "NZ Student Loan Repayment Calculator",
+     "url": "https://calcbloc.com/new-zealand/nz-student-loan-calculator",
+     "frameUrl": "https://calcbloc.com/embed/nz-student-loan-calculator"
+    }
+   ]
+  },
+  {
+   "id": "canada",
+   "name": "Canada",
+   "code": "ca",
+   "calculators": [
+    {
+     "type": "contractor-vs-employee",
+     "slug": "canada-contractor-vs-employee-calculator",
+     "title": "Canada Contractor vs Employee Calculator",
+     "url": "https://calcbloc.com/canada/canada-contractor-vs-employee-calculator",
+     "frameUrl": "https://calcbloc.com/embed/canada-contractor-vs-employee-calculator"
+    },
+    {
+     "type": "employer-cost",
+     "slug": "canada-employer-cost-calculator",
+     "title": "Canada Employer Cost Calculator",
+     "url": "https://calcbloc.com/canada/canada-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/canada-employer-cost-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "canada-income-tax-calculator",
+     "title": "Canada Income Tax Calculator",
+     "url": "https://calcbloc.com/canada/canada-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/canada-income-tax-calculator"
+    },
+    {
+     "type": "salary-to-hourly",
+     "slug": "canada-salary-to-hourly-calculator",
+     "title": "Canada Salary to Hourly Calculator",
+     "url": "https://calcbloc.com/canada/canada-salary-to-hourly-calculator",
+     "frameUrl": "https://calcbloc.com/embed/canada-salary-to-hourly-calculator"
+    },
+    {
+     "type": "cpp-ei",
+     "slug": "cpp-ei-calculator",
+     "title": "CPP and EI Calculator",
+     "url": "https://calcbloc.com/canada/cpp-ei-calculator",
+     "frameUrl": "https://calcbloc.com/embed/cpp-ei-calculator"
+    },
+    {
+     "type": "gst-hst",
+     "slug": "gst-hst-calculator",
+     "title": "GST/HST Calculator",
+     "url": "https://calcbloc.com/canada/gst-hst-calculator",
+     "frameUrl": "https://calcbloc.com/embed/gst-hst-calculator"
+    },
+    {
+     "type": "rrsp-tax-savings",
+     "slug": "rrsp-tax-savings-calculator",
+     "title": "RRSP Tax Savings Calculator",
+     "url": "https://calcbloc.com/canada/rrsp-tax-savings-calculator",
+     "frameUrl": "https://calcbloc.com/embed/rrsp-tax-savings-calculator"
+    }
+   ]
+  },
+  {
+   "id": "ireland",
+   "name": "Ireland",
+   "code": "ie",
+   "calculators": [
+    {
+     "type": "contractor-vs-permanent",
+     "slug": "ireland-contractor-vs-permanent-calculator",
+     "title": "Ireland Contractor vs Permanent Calculator",
+     "url": "https://calcbloc.com/ireland/ireland-contractor-vs-permanent-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ireland-contractor-vs-permanent-calculator"
+    },
+    {
+     "type": "corporation-tax",
+     "slug": "ireland-corporation-tax-calculator",
+     "title": "Ireland Corporation Tax Calculator",
+     "url": "https://calcbloc.com/ireland/ireland-corporation-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ireland-corporation-tax-calculator"
+    },
+    {
+     "type": "employer-cost",
+     "slug": "ireland-employer-cost-calculator",
+     "title": "Ireland Employer Cost Calculator",
+     "url": "https://calcbloc.com/ireland/ireland-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ireland-employer-cost-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "ireland-income-tax-calculator",
+     "title": "Ireland Income Tax Calculator",
+     "url": "https://calcbloc.com/ireland/ireland-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ireland-income-tax-calculator"
+    },
+    {
+     "type": "salary",
+     "slug": "ireland-salary-calculator",
+     "title": "Ireland Salary Calculator",
+     "url": "https://calcbloc.com/ireland/ireland-salary-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ireland-salary-calculator"
+    },
+    {
+     "type": "prsi",
+     "slug": "prsi-calculator",
+     "title": "PRSI Calculator",
+     "url": "https://calcbloc.com/ireland/prsi-calculator",
+     "frameUrl": "https://calcbloc.com/embed/prsi-calculator"
+    },
+    {
+     "type": "usc",
+     "slug": "usc-calculator",
+     "title": "USC Calculator",
+     "url": "https://calcbloc.com/ireland/usc-calculator",
+     "frameUrl": "https://calcbloc.com/embed/usc-calculator"
+    },
+    {
+     "type": "vat",
+     "slug": "vat-calculator-ireland",
+     "title": "VAT Calculator Ireland",
+     "url": "https://calcbloc.com/ireland/vat-calculator-ireland",
+     "frameUrl": "https://calcbloc.com/embed/vat-calculator-ireland"
+    }
+   ]
+  },
+  {
+   "id": "germany",
+   "name": "Germany",
+   "code": "de",
+   "calculators": [
+    {
+     "type": "employer-cost",
+     "slug": "germany-employer-cost-calculator",
+     "title": "Germany Employer Cost Calculator",
+     "url": "https://calcbloc.com/germany/germany-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/germany-employer-cost-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "germany-income-tax-calculator",
+     "title": "Germany Income Tax Calculator",
+     "url": "https://calcbloc.com/germany/germany-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/germany-income-tax-calculator"
+    },
+    {
+     "type": "minijob",
+     "slug": "germany-minijob-calculator",
+     "title": "Germany Minijob Calculator",
+     "url": "https://calcbloc.com/germany/germany-minijob-calculator",
+     "frameUrl": "https://calcbloc.com/embed/germany-minijob-calculator"
+    },
+    {
+     "type": "net-salary",
+     "slug": "germany-net-salary-calculator",
+     "title": "Germany Net Salary Calculator",
+     "url": "https://calcbloc.com/germany/germany-net-salary-calculator",
+     "frameUrl": "https://calcbloc.com/embed/germany-net-salary-calculator"
+    },
+    {
+     "type": "vat",
+     "slug": "germany-vat-calculator",
+     "title": "Germany VAT Calculator",
+     "url": "https://calcbloc.com/germany/germany-vat-calculator",
+     "frameUrl": "https://calcbloc.com/embed/germany-vat-calculator"
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "name": "India",
+   "code": "in",
+   "calculators": [
+    {
+     "type": "car-loan-emi",
+     "slug": "car-loan-emi-calculator",
+     "title": "Car Loan EMI Calculator",
+     "url": "https://calcbloc.com/india/car-loan-emi-calculator",
+     "frameUrl": "https://calcbloc.com/embed/car-loan-emi-calculator"
+    },
+    {
+     "type": "ctc-to-in-hand-salary",
+     "slug": "ctc-to-in-hand-salary-calculator",
+     "title": "CTC to In-Hand Salary Calculator",
+     "url": "https://calcbloc.com/india/ctc-to-in-hand-salary-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ctc-to-in-hand-salary-calculator"
+    },
+    {
+     "type": "emi",
+     "slug": "emi-calculator",
+     "title": "EMI Calculator",
+     "url": "https://calcbloc.com/india/emi-calculator",
+     "frameUrl": "https://calcbloc.com/embed/emi-calculator"
+    },
+    {
+     "type": "epf",
+     "slug": "epf-calculator",
+     "title": "EPF Calculator",
+     "url": "https://calcbloc.com/india/epf-calculator",
+     "frameUrl": "https://calcbloc.com/embed/epf-calculator"
+    },
+    {
+     "type": "gratuity",
+     "slug": "gratuity-calculator",
+     "title": "Gratuity Calculator",
+     "url": "https://calcbloc.com/india/gratuity-calculator",
+     "frameUrl": "https://calcbloc.com/embed/gratuity-calculator"
+    },
+    {
+     "type": "gst",
+     "slug": "gst-calculator-india",
+     "title": "GST Calculator India",
+     "url": "https://calcbloc.com/india/gst-calculator-india",
+     "frameUrl": "https://calcbloc.com/embed/gst-calculator-india"
+    },
+    {
+     "type": "home-loan-emi",
+     "slug": "home-loan-emi-calculator",
+     "title": "Home Loan EMI Calculator",
+     "url": "https://calcbloc.com/india/home-loan-emi-calculator",
+     "frameUrl": "https://calcbloc.com/embed/home-loan-emi-calculator"
+    },
+    {
+     "type": "hra",
+     "slug": "hra-calculator",
+     "title": "HRA Calculator",
+     "url": "https://calcbloc.com/india/hra-calculator",
+     "frameUrl": "https://calcbloc.com/embed/hra-calculator"
+    },
+    {
+     "type": "income-tax",
+     "slug": "india-income-tax-calculator",
+     "title": "Income Tax Calculator India 2026-27",
+     "url": "https://calcbloc.com/india/india-income-tax-calculator",
+     "frameUrl": "https://calcbloc.com/embed/india-income-tax-calculator"
+    },
+    {
+     "type": "employer-cost",
+     "slug": "india-employer-cost-calculator",
+     "title": "India Employer Cost Calculator",
+     "url": "https://calcbloc.com/india/india-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/india-employer-cost-calculator"
+    },
+    {
+     "type": "lumpsum",
+     "slug": "lumpsum-calculator",
+     "title": "Lumpsum Calculator",
+     "url": "https://calcbloc.com/india/lumpsum-calculator",
+     "frameUrl": "https://calcbloc.com/embed/lumpsum-calculator"
+    },
+    {
+     "type": "nps",
+     "slug": "nps-calculator",
+     "title": "NPS Calculator",
+     "url": "https://calcbloc.com/india/nps-calculator",
+     "frameUrl": "https://calcbloc.com/embed/nps-calculator"
+    },
+    {
+     "type": "personal-loan-emi",
+     "slug": "personal-loan-emi-calculator",
+     "title": "Personal Loan EMI Calculator",
+     "url": "https://calcbloc.com/india/personal-loan-emi-calculator",
+     "frameUrl": "https://calcbloc.com/embed/personal-loan-emi-calculator"
+    },
+    {
+     "type": "ppf",
+     "slug": "ppf-calculator",
+     "title": "PPF Calculator",
+     "url": "https://calcbloc.com/india/ppf-calculator",
+     "frameUrl": "https://calcbloc.com/embed/ppf-calculator"
+    },
+    {
+     "type": "salaried-vs-freelancer",
+     "slug": "india-salaried-vs-freelancer-calculator",
+     "title": "Salaried vs Freelancer Calculator India",
+     "url": "https://calcbloc.com/india/india-salaried-vs-freelancer-calculator",
+     "frameUrl": "https://calcbloc.com/embed/india-salaried-vs-freelancer-calculator"
+    },
+    {
+     "type": "sip",
+     "slug": "sip-calculator",
+     "title": "SIP Calculator",
+     "url": "https://calcbloc.com/india/sip-calculator",
+     "frameUrl": "https://calcbloc.com/embed/sip-calculator"
+    },
+    {
+     "type": "step-up-sip",
+     "slug": "step-up-sip-calculator",
+     "title": "Step-Up SIP Calculator",
+     "url": "https://calcbloc.com/india/step-up-sip-calculator",
+     "frameUrl": "https://calcbloc.com/embed/step-up-sip-calculator"
+    }
+   ]
+  },
+  {
+   "id": "spain",
+   "name": "Spain",
+   "code": "es",
+   "calculators": [
+    {
+     "type": "employer-cost",
+     "slug": "spain-employer-cost-calculator",
+     "title": "Spain Employer Cost Calculator 2026",
+     "url": "https://calcbloc.com/spain/spain-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/spain-employer-cost-calculator"
+    },
+    {
+     "type": "net-salary",
+     "slug": "spain-net-salary-calculator",
+     "title": "Spain Net Salary Calculator 2026",
+     "url": "https://calcbloc.com/spain/spain-net-salary-calculator",
+     "frameUrl": "https://calcbloc.com/embed/spain-net-salary-calculator"
+    }
+   ]
+  },
+  {
+   "id": "netherlands",
+   "name": "Netherlands",
+   "code": "nl",
+   "calculators": [
+    {
+     "type": "employer-cost",
+     "slug": "netherlands-employer-cost-calculator",
+     "title": "Netherlands Employer Cost Calculator 2026",
+     "url": "https://calcbloc.com/netherlands/netherlands-employer-cost-calculator",
+     "frameUrl": "https://calcbloc.com/embed/netherlands-employer-cost-calculator"
+    },
+    {
+     "type": "net-salary",
+     "slug": "netherlands-net-salary-calculator",
+     "title": "Netherlands Net Salary Calculator 2026",
+     "url": "https://calcbloc.com/netherlands/netherlands-net-salary-calculator",
+     "frameUrl": "https://calcbloc.com/embed/netherlands-net-salary-calculator"
+    }
+   ]
+  },
+  {
+   "id": "france",
+   "name": "France",
+   "code": "fr",
+   "calculators": [
+    {
+     "type": "net-salary",
+     "slug": "france-net-salary-calculator",
+     "title": "France Net Salary Calculator 2026",
+     "url": "https://calcbloc.com/france/france-net-salary-calculator",
+     "frameUrl": "https://calcbloc.com/embed/france-net-salary-calculator"
+    }
+   ]
+  },
+  {
+   "id": "singapore",
+   "name": "Singapore",
+   "code": "sg",
+   "calculators": [
+    {
+     "type": "take-home-pay",
+     "slug": "singapore-take-home-pay-calculator",
+     "title": "Singapore Take-Home Pay Calculator 2026",
+     "url": "https://calcbloc.com/singapore/singapore-take-home-pay-calculator",
+     "frameUrl": "https://calcbloc.com/embed/singapore-take-home-pay-calculator"
+    }
+   ]
+  },
+  {
+   "id": "uae",
+   "name": "UAE",
+   "code": "ae",
+   "calculators": [
+    {
+     "type": "gratuity",
+     "slug": "uae-gratuity-calculator",
+     "title": "UAE Gratuity Calculator 2026",
+     "url": "https://calcbloc.com/uae/uae-gratuity-calculator",
+     "frameUrl": "https://calcbloc.com/embed/uae-gratuity-calculator"
+    }
+   ]
+  }
+ ]
+}
