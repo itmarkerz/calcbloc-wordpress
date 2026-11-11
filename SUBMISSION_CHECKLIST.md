@@ -32,7 +32,7 @@ Two parts: (A) put the widget live on calcbloc.com, which the plugin depends on;
 - [ ] `composer install && vendor/bin/phpcs` reports no errors or warnings.
 - [ ] `php tests/harness.php` passes.
 - [ ] Refresh `assets/catalog.json` from `https://calcbloc.com/embed/catalog.json`.
-- [ ] Run the **Plugin Check** plugin (https://wordpress.org/plugins/plugin-check/) on a test site (WordPress Playground works: `npx @wp-playground/cli server --mount=.:/wordpress/wp-content/plugins/calcbloc-calculators --login`), fix every error, review warnings.
+- [ ] Run the **Plugin Check** plugin (https://wordpress.org/plugins/plugin-check/) on a test site (WordPress Playground works without installing WordPress: `npx @wp-playground/cli@latest server --port=3102 --mount-dir . /wordpress/wp-content/plugins/calcbloc-calculators --login`; in Git Bash set `MSYS_NO_PATHCONV=1` first), fix every error, review warnings.
 - [ ] Test on the minimum (6.3) and latest (7.1) WordPress, PHP 7.4 and 8.3: block insert, all three sidebar controls, shortcode in classic editor, settings save, uninstall removes `calcbloc_calculators_options`, `calcbloc_calculators_catalog` and the transient.
 - [ ] Build the zip: `npm run plugin-zip` (uses the `files` list in package.json), unzip into a clean site and activate it. The zip must not contain `node_modules`, `vendor`, `src`, `tests`, `.git`.
 - [ ] Screenshots for readme.txt (`screenshot-1.png` … `screenshot-4.png`, captions already in readme.txt) and directory art (below).
